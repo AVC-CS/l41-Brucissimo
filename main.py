@@ -1,5 +1,4 @@
 def main():
-
     N = int(input('Enter the number N: '))
     result = []
 
@@ -8,7 +7,7 @@ def main():
     Code Your Program here
     ########################################
     """
-for i in range(1, N + 1):
+    for i in range(1, N + 1):  # Make sure this is indented inside the function
         if i % 2 == 0:
             result.append(i)
         else:
@@ -21,4 +20,4 @@ for i in range(1, N + 1):
 
 
 if __name__ == '__main__':
-    main()
+    print(main())  # Add print to see output
